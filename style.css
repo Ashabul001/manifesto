@@ -1,13 +1,18 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 h1{
     font-size: 50px;
-    color: rgb(0, 38, 95);
+    color: #385072;
+}
+.ISO
+{
+    font-size: 30px;
+    color: #385072;
 }
 .orange-color{
-    color: orange;
+    color: #ff8800;
 }
 .flexible-container{
     display: flex;
@@ -20,7 +25,7 @@ h1{
 
 .ashabul
 {
-    color: orange;
+    color: #ff8800;
     size: 70px;
 } 
 
@@ -29,7 +34,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: -moz-linear-gradient(orange, tomato);
+    background-image: -moz-linear-gradient(#ff8800, tomato);
     padding: 10px 40px;
     border-radius: 10px;
     color: white;
@@ -53,6 +58,9 @@ h1{
     border-radius: 10px;
     
 }
+
+
+
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -70,6 +78,57 @@ h1{
     border-image-slice: 1;
 
 
+}
+
+.social{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.social a{
+	display: inline-block;
+	padding: 5px;
+
+}
+.social a i{
+	color: #3b1e59;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    line-height: 50px!important;
+    border: 3px solid #fff;
+	opacity: .8;
+transition-property: transform;
+    -moz-transition-property: -moz-transform;
+    -webkit-transition-property: -webkit-transform;
+    transition: all 0.6s cubic-bezier(0.88, -0.48, 0.38, 1.85);
+	border-radius: 50%;
+	
+	}
+.social a i:hover{
+	opacity: 1;
+	border-radius: 20%;
+	
+}
+.social a:hover i.fa-linkedin-in,.social a:hover i.fa-facebook{
+	transition:  .6s ease-in;
+	background: #0088cc; 
+	color: white;
+	border: 3px solid #00aaff; 
+	
+transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.social a:hover i.fa-instagram{
+	transition:  .6s ease-in;
+	background: linear-gradient(#F58529 20%, #FEDA77 50%, #DD2A7B 75%, #8134AF 90%, #515BD4)
+; 
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+	border: 3px solid #fd8e8e; 
+	color:white;
+	
 }
 footer p{
     text-align:center;
